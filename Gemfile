@@ -20,6 +20,7 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "bootsnap", require: false
 gem 'better_errors', '~> 2.9', '>= 2.9.1'
 gem 'sdoc', '~> 2.4'
+gem 'binding_of_caller', '~> 1.0'
 
 
 group :development, :test do
