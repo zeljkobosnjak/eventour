@@ -2,10 +2,10 @@
 
 <% @events.each do |event| %>
     <div>
-        <h4><% event.title %></h4>
-        <p><% event.start_date %></p>
-        <p><% event.end_date %></p>
-        <p><% event.venue %></p>
-        <p><% event.location %></p>
+        <h4><%= event.title %></h4>
+        <p><%= event.start_date %></p>
+        <p><%= event.end_date %></p>
+        <p><%= event.venue %></p> 
+        <p><%= event.location %></p>
     </div>
-<%= end %>
+<% end %>
