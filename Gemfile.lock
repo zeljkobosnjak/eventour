@@ -68,6 +68,8 @@ GEM
       tzinfo (~> 2.0)
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
+    autoprefixer-rails (10.4.7.0)
+      execjs (~> 2)
     better_errors (2.9.1)
       coderay (>= 1.0.0)
       erubi (>= 1.0.0)
@@ -77,6 +79,9 @@ GEM
       debug_inspector (>= 0.0.1)
     bootsnap (1.12.0)
       msgpack (~> 1.2)
+    bootstrap-sass (3.4.1)
+      autoprefixer-rails (>= 5.2.1)
+      sassc (>= 2.0.0)
     builder (3.2.4)
     capybara (3.37.1)
       addressable
@@ -263,6 +268,7 @@ DEPENDENCIES
   better_errors (~> 2.9, >= 2.9.1)
   binding_of_caller (~> 1.0)
   bootsnap
+  bootstrap-sass (~> 3.3, >= 3.3.6)
   capybara
   coffee-rails (~> 5.0)
   debug
@@ -277,7 +283,7 @@ DEPENDENCIES
   sprockets-rails
   sqlite3 (~> 1.4)
   stimulus-rails
-  turbo-rails
+  turbo-rails (~> 1.1.1)
   turbolinks (~> 5.2, >= 5.2.1)
   tzinfo-data
   uglifier (~> 4.2)

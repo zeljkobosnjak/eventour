@@ -10,7 +10,7 @@ gem 'sass-rails', '~> 6.0'
 gem "puma", "~> 5.0"
 gem 'uglifier', '~> 4.2'
 gem "importmap-rails"
-gem "turbo-rails"
+gem "turbo-rails", '~> 1.1.1'
 gem 'coffee-rails', '~> 5.0'
 gem "stimulus-rails"
 gem "jbuilder"
@@ -21,6 +21,7 @@ gem "bootsnap", require: false
 gem 'better_errors', '~> 2.9', '>= 2.9.1'
 gem 'sdoc', '~> 2.4'
 gem 'binding_of_caller', '~> 1.0'
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 
 
 group :development, :test do
