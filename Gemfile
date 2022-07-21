@@ -21,7 +21,8 @@ gem "bootsnap", require: false
 gem 'better_errors', '~> 2.9', '>= 2.9.1'
 gem 'sdoc', '~> 2.4'
 gem 'binding_of_caller', '~> 1.0'
-gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
+gem 'bootstrap-sass', '~> 3.4.1'
+gem 'sassc-rails', '~> 2.1', '>= 2.1.2'
 
 
 group :development, :test do

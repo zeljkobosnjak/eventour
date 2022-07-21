@@ -268,7 +268,7 @@ DEPENDENCIES
   better_errors (~> 2.9, >= 2.9.1)
   binding_of_caller (~> 1.0)
   bootsnap
-  bootstrap-sass (~> 3.3, >= 3.3.6)
+  bootstrap-sass (~> 3.4.1)
   capybara
   coffee-rails (~> 5.0)
   debug
@@ -278,6 +278,7 @@ DEPENDENCIES
   puma (~> 5.0)
   rails (~> 7.0.3, >= 7.0.3.1)
   sass-rails (~> 6.0)
+  sassc-rails (~> 2.1, >= 2.1.2)
   sdoc (~> 2.4)
   selenium-webdriver
   sprockets-rails
