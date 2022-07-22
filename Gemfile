@@ -24,6 +24,7 @@ gem 'binding_of_caller', '~> 1.0'
 gem 'bootstrap-sass', '~> 3.4.1'
 gem 'sassc-rails', '~> 2.1', '>= 2.1.2'
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.8'
+gem 'simple_form', '~> 5.1'
 
 
 group :development, :test do

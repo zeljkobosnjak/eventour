@@ -8,37 +8,20 @@
     </div>
 <% end %>
 
-<%= form_for (event) do |f| %>
-    <div>
-        <%= f.label :title %>
-        <%= f.text_field :title %>
-    </div>
+<%= simple_form_for (event) do |f| %>
+
+    <%= f.input :title %>
     
-    <div>
-        <%= f.label :desciption %>
-        <%= f.text_area :description %>
-    </div>
+    <%= f.input :description %>
 
-    <div>
-        <%= f.label :start_date %>
-        <%= f.datetime_select( :start_date, order: [:day, :month, :year], start_year: Date.current.year, ampm: true, prompt: true ) %>
-    </div>
+    <%= f.input :start_date, as: :datetime, start_year: Date.today.year, ampm: true, order: [:day, :month, :year] %>
 
-    <div>
-        <%= f.label :end_date %>
-        <%= f.datetime_select( :end_date, order: [:day, :month, :year], start_year: Date.current.year, ampm: true, prompt: true ) %>
-    </div>
+    <%= f.input :end_date, as: :datetime, start_year: Date.today.year, ampm: true, order: [:day, :month, :year] %>
 
-    <div>
-        <%= f.label :venue %>
-        <%= f.text_field :venue %>
-    </div>
+    <%= f.input :venue %>
 
-    <div>
-        <%= f.label :location %>
-        <%= f.text_field :location %>
-    </div>
+    <%= f.input :location %>
 
-    <%= f.submit %>	
+    <%= f.button :submit, class: "btn btn-primary" %>	
 
 <% end %>
