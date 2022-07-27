@@ -26,6 +26,9 @@ gem 'sassc-rails', '~> 2.1', '>= 2.1.2'
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.8'
 gem 'simple_form', '~> 5.1'
 gem 'devise', '~> 4.8', '>= 4.8.1'
+gem 'thor', '~> 1.2', '>= 1.2.1'
+
+
 
 
 group :development, :test do
